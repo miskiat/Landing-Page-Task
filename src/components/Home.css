@@ -2,5 +2,5 @@
   @apply bg-[#ffe0c5] h-[100%] w-[100%];
 }
 .house {
-  @apply font-bold text-[#ff6c89] max-w-[85%] ml-[7rem];
+  @apply font-bold text-[#ff6c89] max-w-[50rem] font-bold text-9xl text-center;
 }
