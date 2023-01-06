@@ -1,4 +1,5 @@
 import React from "react";
+import { houses } from "../data";
 import "./Home.css";
 const Home = () => {
   return (
@@ -12,8 +13,10 @@ const Home = () => {
         Explore Locations
       </button>
       <div>
-        <div>
-          <img src="/images/amsterdam.webp" />
+        <div className="houses">
+          {houses.map((house) => (
+            <img src={`/images/${house}`} alt="" />
+          ))}
         </div>
         <p>Discover 274 homes from 10 places in 4 countries</p>
         <div>
