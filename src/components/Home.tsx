@@ -3,11 +3,14 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <div className="house">Houses</div>
+      <h1 className="house">Houses</h1>
       <p className="purpose">
         Houses Of is a project showcasing charismatic houses around the world.
       </p>
-      <button>Explore Locations</button>
+      <button className="explore">
+        <img className="globe" src="/vectors/globe-icon.svg" />
+        Explore Locations
+      </button>
       <div>
         <p>Discover 274 homes from 10 places in 4 countries</p>
         <div>

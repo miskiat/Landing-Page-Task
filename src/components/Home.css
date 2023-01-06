@@ -2,9 +2,33 @@
   @apply bg-[#ffe0c5] h-[100%] w-[100%];
 }
 .house {
-  @apply font-medium text-[#ff6c89] 
- text-9xl text-justify;
+  @apply font-extralight text-[#ff6c89] 
+text-justify;
+  font-size: 30vw;
 }
 .purpose {
-  @apply text-zinc-700 font-medium;
+  @apply font-extralight;
+  margin-left: 40rem;
+  gap: 2rem;
+  color: #333;
+  max-width: 35rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.explore {
+  @apply bg-white;
+  border-radius: 50rem;
+  height: 3rem;
+  width: 15rem;
+  display: flex;
+  margin-left: 40rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: large;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+.globe {
+  @apply h-5;
 }
