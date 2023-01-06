@@ -1,6 +1,15 @@
 import React from "react";
 import { houses } from "../data";
 import "./Home.css";
+import Event from "../components/Event";
+export const events = [
+  {
+    icon: "/vectors/house-icon.svg",
+    desc: "BROWSE ALL PHOTOS",
+  },
+  { icon: "/vectors/shoppingbag-icon.svg", desc: "SHOP OUR PRODUCTS" },
+  { icon: "/public/vectors/compass.svg", desc: "LEARN ABOUT THE PROJECT" },
+];
 const Home = () => {
   return (
     <div className="home">
@@ -23,16 +32,19 @@ const Home = () => {
           <p className="discovery">
             Discover 274 homes from 10 places in 4 countries
           </p>
-          <div className="button-category">
-            <button>BROWSE ALL PHOTOS</button>
-            <button>SHOP OUR PRODUCTS</button>
-            <button>LEARN ABOUT THE PROJECT</button>
+          <div>
+            {events.map(({ icon, desc }, i) => (
+              <Event key={i} icon={icon} desc={desc} />
+            ))}
+            {/* {events.map((event, index) => (
+              <events icon={event.icon} desc={event.desc} />
+            ))} */}
           </div>
-          <div>World</div>
-          <p>Browse all the cities and countries</p>
-          <button>Europe</button>
-          <button>Oceania</button>
         </div>
+        <div>World</div>
+        <p>Browse all the cities and countries</p>
+        <button>Europe</button>
+        <button>Oceania</button>
       </div>
     </div>
   );

@@ -43,9 +43,19 @@ text-justify;
   justify-content: center;
   align-items: center;
   margin-left: 30rem;
-  max-width: 23rem;
+  max-width: 21rem;
+}
+/* .event {
+  @apply flex;
+  height: 10rem;
+  width: 10rem;
+  background-color: blueviolet;
 }
 .button-category {
-  @apply h-10 w-[5rem];
-  background-color: darkorchid;
-}
+  @apply h-20 w-[5rem];
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25rem;
+} */
