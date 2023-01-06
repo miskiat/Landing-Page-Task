@@ -18,16 +18,21 @@ const Home = () => {
             <img src={`/images/${house}`} alt="" />
           ))}
         </div>
-        <p>Discover 274 homes from 10 places in 4 countries</p>
         <div>
-          <button>BROWSE ALL PHOTOS</button>
-          <button>SHOP OUR PRODUCTS</button>
-          <button>LEARN ABOUT THE PROJECT</button>
+          {" "}
+          <p className="discovery">
+            Discover 274 homes from 10 places in 4 countries
+          </p>
+          <div className="button-category">
+            <button>BROWSE ALL PHOTOS</button>
+            <button>SHOP OUR PRODUCTS</button>
+            <button>LEARN ABOUT THE PROJECT</button>
+          </div>
+          <div>World</div>
+          <p>Browse all the cities and countries</p>
+          <button>Europe</button>
+          <button>Oceania</button>
         </div>
-        <div>World</div>
-        <p>Browse all the cities and countries</p>
-        <button>Europe</button>
-        <button>Oceania</button>
       </div>
     </div>
   );
