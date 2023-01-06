@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="house">Houses</div>
-      <p>
+      <p className="purpose">
         Houses Of is a project showcasing charismatic houses around the world.
       </p>
       <button>Explore Locations</button>

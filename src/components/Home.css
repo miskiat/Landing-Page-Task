@@ -2,5 +2,9 @@
   @apply bg-[#ffe0c5] h-[100%] w-[100%];
 }
 .house {
-  @apply font-bold text-[#ff6c89] max-w-[50rem] font-bold text-9xl text-center;
+  @apply font-medium text-[#ff6c89] 
+ text-9xl text-justify;
+}
+.purpose {
+  @apply text-zinc-700 font-medium;
 }
