@@ -12,6 +12,9 @@ const Home = () => {
         Explore Locations
       </button>
       <div>
+        <div>
+          <img src="/images/amsterdam.webp" />
+        </div>
         <p>Discover 274 homes from 10 places in 4 countries</p>
         <div>
           <button>BROWSE ALL PHOTOS</button>
