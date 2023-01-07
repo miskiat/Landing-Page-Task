@@ -48,8 +48,10 @@ const Home = () => {
           <button className="europe">Europe</button>
           <button className="oceania">Oceania</button>
         </div>
-        <div>
-          <img src="/vectors/bourdeux.svg" />
+        <div className="">
+          <img src="https://api.housesof.world/assets/a04ec14e-ab1a-4f29-89f7-bbc80e7652c6?key=square-small-webp" />
+          <h1>Amsterdam</h1>
+          <p>NETHERLANDS</p>
         </div>
       </div>
     </div>

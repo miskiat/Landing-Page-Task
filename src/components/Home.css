@@ -9,6 +9,11 @@ text-justify;
   align-items: center;
   justify-content: center;
 }
+.houses {
+  @apply h-9;
+  max-width: fit-content;
+}
+
 .purpose {
   @apply font-extralight;
   margin-left: 40rem;
@@ -24,14 +29,19 @@ text-justify;
   height: 3rem;
   width: 15rem;
   display: flex;
-  margin-left: 40rem;
+  margin-left: 47rem;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
   font-size: large;
   font-weight: 700;
   margin-top: 2rem;
+  margin-bottom: 6rem;
 }
+.explore:hover {
+  @apply cursor-pointer bg-rose-400;
+}
+
 .globe {
   @apply h-5;
 }
@@ -53,7 +63,7 @@ text-justify;
   max-width: 21rem;
 }
 .event {
-  @apply bg-red-500;
+  @apply bg-violet-500;
   height: 10rem;
   width: 10rem;
   margin-left: 30rem;
@@ -89,11 +99,17 @@ text-justify;
   @apply flex items-center justify-center gap-8 font-thin text-amber-400 pt-6;
 }
 .event-browse {
-  @apply h-32 w-32  pt-6 pl-3 bg-red-600;
+  @apply h-40 w-32  pt-6 pl-3 bg-purple-400;
+  background-color: rgb(99 50 133);
+  border-radius: 1rem;
 }
 .event-product {
-  @apply h-32 w-32 pt-6 pl-3 bg-red-600;
+  @apply h-40 w-32 pt-6 pl-3;
+  background-color: rgb(99 50 133);
+  border-radius: 1rem;
 }
 .event-project {
-  @apply h-32 w-32  pt-6 pl-3 bg-red-600;
+  @apply h-40 w-32  pt-6 pl-3;
+  background-color: rgb(99 50 133);
+  border-radius: 1rem;
 }
