@@ -1,14 +1,16 @@
 import React from "react";
 import { houses } from "../data";
 import "./Home.css";
-import Event from "../components/Event";
-export const events = [
-  {
-    icon: "/vectors/house-icon.svg",
-    desc: "BROWSE ALL PHOTOS",
-  },
-  { icon: "/vectors/shoppingbag-icon.svg", desc: "SHOP OUR PRODUCTS" },
-  { icon: "/public/vectors/compass.svg", desc: "LEARN ABOUT THE PROJECT" },
+import TravelEvent from "../components/Event";
+const events = [
+  [
+    {
+      icon: "public/house-icon.svg",
+      desc: "BROWSE ALL PHOTOS",
+    },
+    { icon: "/vectors/shoppingbag-icon.svg", desc: "SHOP OUR PRODUCTS" },
+    { icon: "/public/vectors/compass.svg", desc: "LEARN ABOUT THE PROJECT" },
+  ],
 ];
 const Home = () => {
   return (
@@ -32,9 +34,13 @@ const Home = () => {
           <p className="discovery">
             Discover 274 homes from 10 places in 4 countries
           </p>
-          <div>
-            {events.map(({ icon, desc }, i) => (
-              <Event key={i} icon={icon} desc={desc} />
+          <div className="event">
+            {events.map((data, index) => (
+              <div>
+                {data.map(({ icon, desc }, i) => (
+                  <TravelEvent key={i} icon={icon} desc={desc} />
+                ))}
+              </div>
             ))}
             {/* {events.map((event, index) => (
               <events icon={event.icon} desc={event.desc} />

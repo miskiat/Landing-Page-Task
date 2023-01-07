@@ -45,17 +45,13 @@ text-justify;
   margin-left: 30rem;
   max-width: 21rem;
 }
-/* .event {
-  @apply flex;
+.event {
+  @apply bg-red-500;
   height: 10rem;
   width: 10rem;
-  background-color: blueviolet;
-}
-.button-category {
-  @apply h-20 w-[5rem];
-
+  margin-left: 30rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 25rem;
-} */
+  flex-direction: column;
+  column-gap: 2rem;
+  padding-left: 4rem;
+}
