@@ -113,3 +113,17 @@ text-justify;
   background-color: rgb(99 50 133);
   border-radius: 1rem;
 }
+.country {
+  @apply flex items-center justify-center;
+}
+.flag {
+  @apply rounded-full h-10 ml-28;
+}
+.country-name {
+  @apply text-6xl font-extralight;
+  color: #ff6c89;
+}
+.capital {
+  @apply text-base ml-20;
+  color: #ffe0c5;
+}

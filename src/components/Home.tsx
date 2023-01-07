@@ -48,10 +48,25 @@ const Home = () => {
           <button className="europe">Europe</button>
           <button className="oceania">Oceania</button>
         </div>
-        <div className="">
-          <img src="https://api.housesof.world/assets/a04ec14e-ab1a-4f29-89f7-bbc80e7652c6?key=square-small-webp" />
-          <h1>Amsterdam</h1>
-          <p>NETHERLANDS</p>
+        <div className="country">
+          <div>
+            <img
+              className="flag"
+              src="https://api.housesof.world/assets/a04ec14e-ab1a-4f29-89f7-bbc80e7652c6?key=square-small-webp"
+            />
+            <h1 className="country-name">Amsterdam</h1>
+            <p className="capital">NETHERLANDS</p>
+            <img />
+          </div>
+          <div>
+            <img
+              className="flag"
+              src="https://api.housesof.world/assets/302574d5-25e7-46e0-8b8e-d766f8fd9ba0?key=square-small-webp"
+            />
+            <h1 className="country-name">Bordeaux</h1>
+            <p className="capital">FRANCE</p>
+            <img />
+          </div>
         </div>
       </div>
     </div>
