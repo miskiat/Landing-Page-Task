@@ -1,5 +1,5 @@
 import React from "react";
-import { houses } from "../data";
+import { country, houses } from "../data";
 import "./Home.css";
 
 const Home = () => {
@@ -49,24 +49,10 @@ const Home = () => {
           <button className="oceania">Oceania</button>
         </div>
         <div className="country">
-          <div>
-            <img
-              className="flag"
-              src="https://api.housesof.world/assets/a04ec14e-ab1a-4f29-89f7-bbc80e7652c6?key=square-small-webp"
-            />
-            <h1 className="country-name">Amsterdam</h1>
-            <p className="capital">NETHERLANDS</p>
-            <img />
-          </div>
-          <div>
-            <img
-              className="flag"
-              src="https://api.housesof.world/assets/302574d5-25e7-46e0-8b8e-d766f8fd9ba0?key=square-small-webp"
-            />
-            <h1 className="country-name">Bordeaux</h1>
-            <p className="capital">FRANCE</p>
-            <img />
-          </div>
+          {" "}
+          {country.map((country) => (
+            <img src={country.icon} />
+          ))}
         </div>
       </div>
     </div>
