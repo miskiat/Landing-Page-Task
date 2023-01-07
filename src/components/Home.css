@@ -5,6 +5,9 @@
   @apply font-extralight text-[#ff6c89] 
 text-justify;
   font-size: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .purpose {
   @apply font-extralight;
@@ -36,13 +39,17 @@ text-justify;
   @apply flex;
   height: 20rem;
 }
+.second-section {
+  @apply bg-violet-800;
+}
 .discovery {
   @apply font-extralight;
   font-size: 2rem;
   color: #ff6c89;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30rem;
+  margin-left: 40rem;
   max-width: 21rem;
 }
 .event {
@@ -54,4 +61,39 @@ text-justify;
   flex-direction: column;
   column-gap: 2rem;
   padding-left: 4rem;
+}
+.world {
+  @apply text-purple-500 font-extralight;
+  font-size: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.browse {
+  @apply text-amber-400 flex items-center justify-center;
+  font-size: 2rem;
+  font-weight: 200;
+}
+.country-button {
+  @apply flex items-center justify-center gap-2 font-semibold mt-10;
+}
+.europe {
+  @apply bg-white h-10 w-24;
+  border-radius: 10rem;
+}
+.oceania {
+  @apply bg-white h-10 w-24;
+  border-radius: 10rem;
+}
+.events {
+  @apply flex items-center justify-center gap-8 font-thin text-amber-400 pt-6;
+}
+.event-browse {
+  @apply h-32 w-32  pt-6 pl-3 bg-red-600;
+}
+.event-product {
+  @apply h-32 w-32 pt-6 pl-3 bg-red-600;
+}
+.event-project {
+  @apply h-32 w-32  pt-6 pl-3 bg-red-600;
 }
