@@ -114,17 +114,20 @@ text-justify;
   border-radius: 1rem;
 }
 .countries {
-  @apply flex  flex-wrap mx-auto gap-4  justify-center items-center max-w-[55%];
+  @apply flex  flex-wrap mx-auto gap-10 mt-28 justify-center items-center max-w-[45%];
+}
+.country {
+  @apply flex flex-col justify-center items-center max-w-[50%];
 }
 
 .flag {
-  @apply rounded-full h-10 ml-28 max-w-[40rem];
+  @apply rounded-full h-10;
 }
 .country-name {
-  @apply text-6xl font-extralight max-w-[40rem];
+  @apply text-5xl font-extralight;
   color: #ff6c89;
 }
 .capital {
-  @apply text-base ml-20 max-w-[40rem];
+  @apply text-base;
   color: #ffe0c5;
 }
