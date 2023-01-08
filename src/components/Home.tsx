@@ -51,7 +51,7 @@ const Home = () => {
         </div>
         <div className="countries">
           {country.map((country, index) => (
-            <div>
+            <div className="country">
               <img className="flag" src={country.icon} />
               <p className="country-name">{country.capital}</p>
               <p className="capital">{country.country}</p>

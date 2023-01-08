@@ -50,7 +50,7 @@ text-justify;
   height: 20rem;
 }
 .second-section {
-  @apply bg-violet-800;
+  @apply bg-[#3c0576];
 }
 .discovery {
   @apply font-extralight;
@@ -114,19 +114,17 @@ text-justify;
   border-radius: 1rem;
 }
 .countries {
-  @apply bg-rose-100 flex gap-5 max-w-[50%];
+  @apply flex  flex-wrap mx-auto gap-4  justify-center items-center max-w-[55%];
 }
-.country {
-  @apply flex items-center justify-center;
-}
+
 .flag {
-  @apply rounded-full h-10 ml-28;
+  @apply rounded-full h-10 ml-28 max-w-[40rem];
 }
 .country-name {
-  @apply text-6xl font-extralight;
+  @apply text-6xl font-extralight max-w-[40rem];
   color: #ff6c89;
 }
 .capital {
-  @apply text-base ml-20;
+  @apply text-base ml-20 max-w-[40rem];
   color: #ffe0c5;
 }
