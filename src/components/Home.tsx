@@ -49,15 +49,13 @@ const Home = () => {
           <button className="europe">Europe</button>
           <button className="oceania">Oceania</button>
         </div>
-        <div>
+        <div className="countries">
           {country.map((country, index) => (
             <div>
-              <img className="" src={country.icon} />
-              <p>{country.capital}</p>
-              <p>{country.country}</p>
+              <img className="flag" src={country.icon} />
+              <p className="country-name">{country.capital}</p>
+              <p className="capital">{country.country}</p>
             </div>
-
-            // <Country country={country} key={index} />
           ))}
           ;
         </div>

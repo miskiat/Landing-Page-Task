@@ -113,6 +113,9 @@ text-justify;
   background-color: rgb(99 50 133);
   border-radius: 1rem;
 }
+.countries {
+  @apply bg-rose-100 flex gap-5 max-w-[50%];
+}
 .country {
   @apply flex items-center justify-center;
 }
