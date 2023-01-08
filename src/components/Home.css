@@ -15,10 +15,10 @@ text-justify;
 }
 
 .purpose {
-  @apply font-extralight;
+  @apply text-[#333333] font-extralight;
   margin-left: 40rem;
   gap: 2rem;
-  color: #333;
+
   max-width: 35rem;
   font-size: 2rem;
   font-weight: 300;
@@ -73,14 +73,14 @@ text-justify;
   padding-left: 4rem;
 }
 .world {
-  @apply text-purple-500 font-extralight;
+  @apply text-[#633285] font-extralight;
   font-size: 35vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .browse {
-  @apply text-amber-400 flex items-center justify-center;
+  @apply text-[#ffdfc5] flex items-center justify-center;
   font-size: 2rem;
   font-weight: 200;
 }
