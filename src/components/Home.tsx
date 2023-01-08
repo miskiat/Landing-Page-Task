@@ -1,6 +1,7 @@
 import React from "react";
 import { country, houses } from "../data";
 import "./Home.css";
+import Country from "./Country";
 
 const Home = () => {
   return (
@@ -48,11 +49,17 @@ const Home = () => {
           <button className="europe">Europe</button>
           <button className="oceania">Oceania</button>
         </div>
-        <div className="country">
-          {" "}
-          {country.map((country) => (
-            <img src={country.icon} />
+        <div>
+          {country.map((country, index) => (
+            <div>
+              <img className="" src={country.icon} />
+              <p>{country.capital}</p>
+              <p>{country.country}</p>
+            </div>
+
+            // <Country country={country} key={index} />
           ))}
+          ;
         </div>
       </div>
     </div>
