@@ -4,6 +4,15 @@
 .footer-house {
   @apply text-sm text-[#ff6c89] text-xl;
 }
+.line-two {
+  @apply flex space-x-2;
+}
+.line-two-of {
+  @apply text-[#633285];
+}
+.line-two-world {
+  @apply text-[#c88eec];
+}
 .right {
   @apply text-[#fff] flex;
 }

@@ -4,7 +4,14 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-house">Houses OF THE World</div>
+      <div>
+        <h1 className="footer-house">Houses</h1>
+        <div className="line-two">
+          <p className="line-two-of">OF THE </p>
+          <p className="line-two-world">World</p>
+        </div>
+      </div>
+
       <div className="right">
         <h1>shop</h1>
         <h1>About</h1>
