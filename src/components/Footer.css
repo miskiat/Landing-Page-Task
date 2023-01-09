@@ -20,5 +20,8 @@
   @apply text-[#c88eec] text-xl;
 }
 .right {
-  @apply text-[#fff] flex;
+  @apply text-[#fff] flex space-x-4 cursor-pointer justify-items-end;
+}
+.right:hover {
+  @apply text-[#ff6c89];
 }
