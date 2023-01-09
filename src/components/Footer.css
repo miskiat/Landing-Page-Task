@@ -1,6 +1,9 @@
 .footer {
   @apply bg-[#2d0458] flex flex-row items-start  gap-x-80;
 }
+.footer-house {
+  @apply text-sm text-[#ff6c89] text-xl;
+}
 .right {
   @apply text-[#fff] flex;
 }
