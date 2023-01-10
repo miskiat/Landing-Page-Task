@@ -10,8 +10,30 @@ text-justify;
   justify-content: center;
 }
 .houses {
-  @apply h-9;
-  max-width: fit-content;
+  @apply h-[20rem] min-h-[20rem] relative;
+  /* max-width: fit-content; */
+}
+.house-img {
+  @apply absolute w-[30%] rounded-[1rem];
+}
+.house-img0 {
+  @apply -left-[3rem];
+  transform: rotate(-10deg);
+  z-index: 3;
+}
+.house-img1 {
+  @apply left-0 -bottom-[2rem] rounded-full;
+  z-index: 5;
+}
+.house-img2 {
+  @apply -left-[9rem] -bottom-[17rem];
+  z-index: 2;
+  transform: rotate(-5deg);
+}
+.house-img3 {
+  @apply left-[10rem] -bottom-[12rem];
+  z-index: 1;
+  transform: rotate(-6deg);
 }
 
 .purpose {

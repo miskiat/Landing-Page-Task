@@ -16,8 +16,12 @@ const Home = () => {
       </button>
 
       <div className="houses">
-        {houses.map((house) => (
-          <img src={`/images/${house}`} alt="" />
+        {houses.map((house, houseIndex) => (
+          <img
+            className={` house-img house-img${houseIndex}`}
+            src={`/images/${house}`}
+            alt=""
+          />
         ))}
       </div>
 
