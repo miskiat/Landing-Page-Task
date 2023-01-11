@@ -1,10 +1,13 @@
 .footer {
-  @apply bg-[#2d0458] flex flex-row items-start  gap-x-80 p-7;
+  @apply bg-[#2d0458] flex flex-row items-start justify-between px-28 py-10 gap-x-80;
 }
 .left {
-  @apply cursor-pointer;
+  @apply cursor-pointer max-w-max;
 }
-.left :hover {
+.left:hover h1.footer-house {
+  @apply text-[white];
+}
+.left:hover .line-two p {
   @apply text-[white];
 }
 .footer-house {
@@ -20,8 +23,8 @@
   @apply text-[#c88eec] text-xl;
 }
 .right {
-  @apply text-[#fff] flex space-x-4 cursor-pointer justify-items-end;
+  @apply text-[#fff] flex space-x-9 font-extralight cursor-pointer justify-items-end max-w-max;
 }
-.right:hover {
+.right a:hover {
   @apply text-[#ff6c89];
 }

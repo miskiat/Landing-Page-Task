@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="left">
         <h1 className="footer-house">Houses</h1>
         <div className="line-two">
@@ -13,17 +13,17 @@ const Footer = () => {
       </div>
 
       <div className="right">
-        <h1>shop</h1>
-        <h1>About</h1>
-        <h1>Keep Updated</h1>
-        <h1>Credits</h1>
-        <h1>Terms</h1>
-        <div>
+        <a>Shop</a>
+        <a>About</a>
+        <a>Keep Updated</a>
+        <a>Credits</a>
+        <a>Terms</a>
+        <a>
           <img src="/vector/instagram.svg" />
           <h1>Instagram</h1>
-        </div>
+        </a>
       </div>
-    </div>
+    </footer>
   );
 };
 

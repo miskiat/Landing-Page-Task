@@ -35,7 +35,11 @@ text-justify;
   z-index: 1;
   transform: rotate(-6deg);
 }
-
+.house-img4 {
+  @apply -left-[-32rem] -top-[2rem];
+  z-index: 2;
+  transform: rotate(-2deg);
+}
 .purpose {
   @apply text-[#333333] font-extralight;
   margin-left: 40rem;
