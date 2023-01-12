@@ -2,9 +2,10 @@
   @apply bg-[#ffe0c5] h-[100%] w-[100%];
 }
 .house {
-  @apply font-extralight text-[#ff6c89] 
+  @apply text-[#ff6c89] 
 text-justify;
-  font-size: 30vw;
+  font-size: 27vw;
+  font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +42,9 @@ text-justify;
   transform: rotate(-2deg);
 }
 .purpose {
-  @apply text-[#333333] font-extralight;
+  @apply text-[#333333];
+  font-family: "Garnett-Light";
+  font-weight: 200;
   margin-left: 40rem;
   gap: 2rem;
 
@@ -117,9 +120,15 @@ text-justify;
   @apply bg-white h-10 w-24;
   border-radius: 10rem;
 }
+.europe:hover {
+  @apply cursor-pointer bg-rose-400;
+}
 .oceania {
   @apply bg-white h-10 w-24;
   border-radius: 10rem;
+}
+.oceania:hover {
+  @apply cursor-pointer bg-rose-400;
 }
 .events {
   @apply flex items-center justify-center gap-8 font-thin text-amber-400 pt-6;

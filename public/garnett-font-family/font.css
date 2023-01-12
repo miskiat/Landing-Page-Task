@@ -1,0 +1,115 @@
+/**
+ * @license
+ *
+ * Font Family: Satoshi
+ * Designed by: Deni Anggara
+ * URL: https://www.fontshare.com/fonts/satoshi
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Satoshi Variable(Variable font)
+ * Satoshi Variable Italic(Variable font)
+ * Satoshi Light
+ * Satoshi Light Italic
+ * Satoshi Regular
+ * Satoshi Italic
+ * Satoshi Medium
+ * Satoshi Medium Italic
+ * Satoshi Bold
+ * Satoshi Bold Italic
+ * Satoshi Black
+ * Satoshi Black Italic
+ *
+*/
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 900.0;
+*
+* available axes:
+
+* 'wght' (range from 300.0 to 900.0)
+
+*/
+
+@font-face {
+  font-family: "Garnett-Light";
+  src: url("../garnett-font-family/Garnett-Light.woff") format("woff"),
+    url("../garnett-font-family/Garnett-Light.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garnett-LightItalic";
+  src: url("../garnett-font-family/Garnett-LightItalic.woff") format("woff"),
+    url("../fonts/Satoshi-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Garnett-Regular";
+  src: url("../garnett-font-family/Garnett-Regular.woff") format("woff"),
+    url("../garnett-font-family/Garnett-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garnett-Medium";
+  src: url("../garnett-font-family/Garnett-Medium.woff") format("woff"),
+    url("../garnett-font-family/Garnett-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garnett-MediumItalic";
+  src: url("../garnett-font-family/Garnett-MediumItalic.woff") format("woff"),
+    url("../garnett-font-family/Garnett-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Garnett-Bold";
+  src: url("../garnett-font-family/Garnett-Bold.woff") format("woff"),
+    url("../garnett-font-family/Garnett-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garnett-BoldItalic";
+  src: url("../garnett-font-family/Garnett-BoldItalic.woff") format("woff"),
+    url("../garnett-font-family/Garnett-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Garnett-Black";
+  src: url("../garnett-font-family/Garnett-Black.woff") format("woff"),
+    url("../garnett-font-family/Garnett-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Garnett-BlackItalic";
+  src: url("../garnett-font-family/Garnett-BlackItalic.woff") format("woff"),
+    url("../garnett-font-family/Garnett-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}

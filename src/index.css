@@ -1,7 +1,6 @@
+@import url(/garnett-font-family/font.css);
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-
 * {
   box-sizing: border-box;
 }
@@ -12,4 +11,6 @@ body {
 }
 body {
   overflow-x: hidden;
+  font-family: "Garnett-Regular";
 }
+@tailwind utilities;
