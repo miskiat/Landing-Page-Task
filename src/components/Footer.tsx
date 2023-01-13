@@ -18,8 +18,8 @@ const Footer = () => {
         <a>Keep Updated</a>
         <a>Credits</a>
         <a>Terms</a>
-        <a>
-          <img src="/vector/instagram.svg" />
+        <a className="flex gap-2">
+          <img src="/vectors/instagram.svg" />
           <h1>Instagram</h1>
         </a>
       </div>
