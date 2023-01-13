@@ -42,15 +42,41 @@ text-justify;
   transform: rotate(-2deg);
 }
 .house-img5 {
-  @apply -left-[-10rem] -bottom-[5rem];
-  z-index: 2;
+  @apply -left-[-40rem] -top-[5rem];
+  z-index: 6;
   transform: rotate(-2deg);
 }
 .house-img6 {
+  @apply -left-[-60rem] -top-[5rem];
+  z-index: 6;
+  transform: rotate(-4deg);
+}
+.house-img7 {
+  @apply -left-[-20rem] -top-[5rem];
+  z-index: 3;
+  transform: rotate(-4deg);
+}
+.house-img8 {
   @apply -left-[-40rem] -bottom-[5rem];
   z-index: 6;
   transform: rotate(-4deg);
 }
+.house-img9 {
+  @apply -right-[-60rem] -bottom-[10rem];
+  z-index: 4;
+  transform: rotate(-4deg);
+}
+.house-img10 {
+  @apply -left-[-80rem] -bottom-[15rem];
+  z-index: 4;
+  transform: rotate(-4deg);
+}
+/* .house-img11 {
+  @apply -left-[-70rem] -bottom-[15rem];
+  z-index: 2;
+  transform: rotate(-5deg);
+} */
+
 .purpose {
   @apply text-[#333333];
   font-family: "Garnett-Light";
@@ -89,17 +115,28 @@ text-justify;
   height: 20rem;
 }
 .second-section {
-  @apply bg-[#3c0576];
+  @apply bg-[#3c0576] mt-60 pt-52;
 }
 .discovery {
   @apply font-extralight;
-  font-size: 2rem;
+  font-size: xx-large;
   color: #ff6c89;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 0.5rem;
   margin-left: 40rem;
-  max-width: 21rem;
+  max-width: 29.5rem;
+}
+.discover {
+  @apply text-[#ffdfc5];
+}
+.from {
+  @apply text-[#ffdfc5];
+}
+.in {
+  @apply text-[#ffdfc5];
 }
 .event {
   @apply bg-violet-500;

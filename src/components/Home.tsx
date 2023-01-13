@@ -26,12 +26,17 @@ const Home = () => {
       </div>
 
       <div className="second-section">
-        <div>
-          {" "}
-          <p className="discovery">
-            Discover 274 homes from 10 places in 4 countries
-          </p>
+        <div className="width-full">
+          <div className="discovery">
+            <h1 className="discover">Discover </h1>
+            <h1>274 homes</h1>
+            <h1 className="from">from </h1>
+            <h1>10 places </h1>
+            <h1 className="in">in</h1>
+            <h1>4 countries</h1>
+          </div>
         </div>
+
         <div className="events">
           <div className="event-browse">
             <img className="remix-image" src="/vectors/house-icon.svg" />
