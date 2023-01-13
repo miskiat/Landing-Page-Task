@@ -18,7 +18,7 @@ const Footer = () => {
         <a>Keep Updated</a>
         <a>Credits</a>
         <a>Terms</a>
-        <a className="flex gap-2">
+        <a className="flex gap-2 icon">
           <img src="/vectors/instagram.svg" />
           <h1>Instagram</h1>
         </a>

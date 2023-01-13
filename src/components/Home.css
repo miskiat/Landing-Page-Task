@@ -37,9 +37,19 @@ text-justify;
   transform: rotate(-6deg);
 }
 .house-img4 {
-  @apply -left-[-32rem] -top-[2rem];
+  @apply -left-[-32rem] -top-[6rem];
   z-index: 2;
   transform: rotate(-2deg);
+}
+.house-img5 {
+  @apply -left-[-10rem] -bottom-[5rem];
+  z-index: 2;
+  transform: rotate(-2deg);
+}
+.house-img6 {
+  @apply -left-[-40rem] -bottom-[5rem];
+  z-index: 6;
+  transform: rotate(-4deg);
 }
 .purpose {
   @apply text-[#333333];
@@ -97,6 +107,7 @@ text-justify;
   width: 10rem;
   margin-left: 30rem;
   display: flex;
+  align-items: center;
   flex-direction: column;
   column-gap: 2rem;
   padding-left: 4rem;
@@ -131,22 +142,26 @@ text-justify;
   @apply cursor-pointer bg-rose-400;
 }
 .events {
-  @apply flex items-center justify-center gap-8 font-thin text-amber-400 pt-6;
+  @apply flex items-center justify-center gap-8  text-[#eaa1bb] pt-6;
+  font-size: x-small;
 }
 .event-browse {
-  @apply h-40 w-32  pt-6 pl-3 bg-purple-400;
+  @apply h-36 w-28  pt-6 pl-6 bg-purple-400;
   background-color: rgb(99 50 133);
   border-radius: 1rem;
 }
 .event-product {
-  @apply h-40 w-32 pt-6 pl-3;
+  @apply h-36 w-28 pt-6 pl-6;
   background-color: rgb(99 50 133);
   border-radius: 1rem;
 }
 .event-project {
-  @apply h-40 w-32  pt-6 pl-3;
+  @apply h-36 w-28  pt-6 pl-6;
   background-color: rgb(99 50 133);
   border-radius: 1rem;
+}
+.remix-image {
+  @apply w-9 h-9 ml-4 mb-3;
 }
 .countries {
   @apply flex  flex-wrap mx-auto gap-10 mt-28 justify-center items-center max-w-[45%];

@@ -34,15 +34,15 @@ const Home = () => {
         </div>
         <div className="events">
           <div className="event-browse">
-            <img src="/vectors/house-icon.svg" />
+            <img className="remix-image" src="/vectors/house-icon.svg" />
             BROWSE ALL PHOTOS
           </div>
           <div className="event-product">
-            <img src="/vectors/shoppingbag-icon.svg" />
+            <img className="remix-image" src="/vectors/shoppingbag-icon.svg" />
             SHOP OUR PRODUCTS
           </div>
           <div className="event-project">
-            <img src="/vectors/compass.svg" />
+            <img className="remix-image" src="/vectors/compass.svg" />
             LEARN ABOUT THE PROJECT
           </div>
         </div>

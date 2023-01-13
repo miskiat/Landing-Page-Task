@@ -28,3 +28,9 @@
 .right a:hover {
   @apply text-[#ff6c89];
 }
+a.icon img {
+  filter: brightness(0) invert(1);
+}
+a:hover img {
+  filter: none;
+}
