@@ -222,5 +222,8 @@ text-justify;
   @apply bg-slate-500 flex;
 }
 .white-background {
-  @apply bg-white;
+  @apply bg-white border-ra;
+}
+.room {
+  @apply h-96 w-80;
 }

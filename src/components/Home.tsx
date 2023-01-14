@@ -70,7 +70,7 @@ const Home = () => {
         </div>
         <div className="third-section">
           <div className="white-background">
-            <img src="/public/images/rooom.webp" />
+            <img className="room" src="/public/images/rooom.webp" />
             <div>
               <h1>Browse our products</h1>
               <p>
