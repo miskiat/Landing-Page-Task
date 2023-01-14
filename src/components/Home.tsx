@@ -71,8 +71,8 @@ const Home = () => {
         <div className="third-section">
           <div className="white-background">
             <img className="room" src="/public/images/rooom.webp" />
-            <div>
-              <h1>Browse our products</h1>
+            <div className="info">
+              <h1 className="browsee">Browse our products</h1>
               <p>
                 Discover our graphic posters and prints of your favorite
                 locations.

@@ -222,8 +222,14 @@ text-justify;
   @apply bg-slate-500 flex;
 }
 .white-background {
-  @apply bg-white border-ra;
+  @apply bg-white rounded-2xl flex;
 }
 .room {
   @apply h-96 w-80;
+}
+.info {
+  @apply p-20;
+}
+.browsee {
+  @apply text-[#633285] text-3xl;
 }
