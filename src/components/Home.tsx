@@ -77,7 +77,7 @@ const Home = () => {
                 Discover our graphic posters and prints of your favorite
                 locations.
               </p>
-              <button>Shop</button>
+              <button className="shop-button">Shop</button>
               <p>
                 Posters available for Brisbane, Melbourne, Montpellier and
                 Occitanie.

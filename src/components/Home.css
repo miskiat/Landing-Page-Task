@@ -236,3 +236,6 @@ text-justify;
 .discoverr {
   @apply max-w-xs text-xl font-extralight;
 }
+.shop-button {
+  @apply rounded-full bg-rose-400;
+}
