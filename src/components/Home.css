@@ -237,5 +237,8 @@ text-justify;
   @apply max-w-xs text-xl font-extralight;
 }
 .shop-button {
-  @apply rounded-full bg-rose-400;
+  @apply rounded-full bg-[#ffb3c2] w-24 h-12 font-extrabold text-lg mt-3;
+}
+.shop-button:hover {
+  @apply bg-rose-400 text-white;
 }
