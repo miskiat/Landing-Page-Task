@@ -218,3 +218,9 @@ text-justify;
   @apply text-base;
   color: #ffe0c5;
 }
+.third-section {
+  @apply bg-slate-500 flex;
+}
+.white-background {
+  @apply bg-white;
+}
