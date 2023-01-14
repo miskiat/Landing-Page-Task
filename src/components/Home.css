@@ -228,8 +228,11 @@ text-justify;
   @apply h-96 w-80;
 }
 .info {
-  @apply p-20;
+  @apply p-14 max-w-sm;
 }
 .browsee {
   @apply text-[#633285] text-3xl;
+}
+.discoverr {
+  @apply max-w-xs text-xl font-extralight;
 }

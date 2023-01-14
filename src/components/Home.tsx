@@ -73,7 +73,7 @@ const Home = () => {
             <img className="room" src="/public/images/rooom.webp" />
             <div className="info">
               <h1 className="browsee">Browse our products</h1>
-              <p>
+              <p className="discoverr">
                 Discover our graphic posters and prints of your favorite
                 locations.
               </p>
