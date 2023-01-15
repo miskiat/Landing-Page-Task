@@ -84,7 +84,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="cream-background">
             <h1>Keep Updated</h1>
             <p>
               Get notified of new locations and photos as well as new available

@@ -219,7 +219,7 @@ text-justify;
   color: #ffe0c5;
 }
 .third-section {
-  @apply bg-slate-500 flex;
+  @apply flex ml-11 gap-10;
 }
 .white-background {
   @apply bg-white rounded-2xl flex;
@@ -241,4 +241,7 @@ text-justify;
 }
 .shop-button:hover {
   @apply bg-rose-400 text-white;
+}
+.cream-background {
+  @apply bg-[#ffe0c5] rounded-2xl;
 }
