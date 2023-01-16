@@ -91,9 +91,14 @@ const Home = () => {
               Houses Of products.
             </p>
             <button className="email-button">Your email address</button>
-            <img src="/public/vectors/file.svg" />
-            <p>See past issues</p>
-            <p>No spam, we promise!</p>
+            <div className="below">
+              <div className=" below-left">
+                <img src="/public/vectors/file.svg" />
+                <p className="underlinee">See past issues</p>
+              </div>
+
+              <p>No spam, we promise!</p>
+            </div>
           </div>
         </div>
       </div>
