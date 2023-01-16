@@ -248,3 +248,9 @@ text-justify;
 .updated {
   @apply text-3xl text-[#ff6c89];
 }
+.notified {
+  @apply max-w-xs text-xl font-extralight;
+}
+.email-button {
+  @apply border-pink-400 border-2 rounded-full h-16;
+}

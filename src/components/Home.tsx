@@ -86,11 +86,11 @@ const Home = () => {
           </div>
           <div className="cream-background">
             <h1 className="updated">Keep Updated</h1>
-            <p>
+            <p className="notified">
               Get notified of new locations and photos as well as new available
               Houses Of products.
             </p>
-            <button>Your email address</button>
+            <button className="email-button">Your email address</button>
             <img src="/public/vectors/file.svg" />
             <p>See past issues</p>
             <p>No spam, we promise!</p>
