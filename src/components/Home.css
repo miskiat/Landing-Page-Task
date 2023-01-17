@@ -252,7 +252,7 @@ text-justify;
   @apply max-w-xs text-xl font-extralight;
 }
 .email-button {
-  @apply border-pink-400 border-2 rounded-full h-16;
+  @apply border-pink-400 border-2 rounded-full h-16 w-96;
 }
 .below {
   @apply flex gap-12;
