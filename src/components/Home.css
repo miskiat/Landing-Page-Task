@@ -254,6 +254,9 @@ text-justify;
 .email-button {
   @apply border-pink-400 border-2 rounded-full h-20 w-96;
 }
+.email-button:hover {
+  @apply border-pink-500;
+}
 .below {
   @apply flex gap-12;
 }
