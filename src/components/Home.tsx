@@ -97,7 +97,7 @@ const Home = () => {
                 <p className="underlinee">See past issues</p>
               </div>
 
-              <p>No spam, we promise!</p>
+              <p className="spam">No spam, we promise!</p>
             </div>
           </div>
         </div>

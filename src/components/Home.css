@@ -252,7 +252,7 @@ text-justify;
   @apply max-w-xs text-xl font-extralight;
 }
 .email-button {
-  @apply border-pink-400 border-2 rounded-full h-20 w-96;
+  @apply border-pink-400 border-2 rounded-full h-14 w-96 text-[#958b83];
 }
 .email-button:hover {
   @apply border-pink-500;
@@ -265,4 +265,7 @@ text-justify;
 }
 .underlinee {
   @apply underline;
+}
+.spam {
+  @apply text-[#958b83];
 }
