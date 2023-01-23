@@ -90,7 +90,12 @@ const Home = () => {
               Get notified of new locations and photos as well as new available
               Houses Of products.
             </p>
-            <button className="email-button">Your email address</button>
+
+            <button className="email-button">
+              Your email address
+              <img className="arrow" src="/public/vectors/arrow.svg" />
+            </button>
+
             <div className="below">
               <div className=" below-left">
                 <img src="/public/vectors/file.svg" />

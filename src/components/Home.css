@@ -252,10 +252,13 @@ text-justify;
   @apply max-w-xs text-xl font-extralight;
 }
 .email-button {
-  @apply border-pink-400 border-2 rounded-full h-14 w-96 text-[#958b83];
+  @apply border-pink-400 border-2 rounded-full h-14 w-96 text-[#958b83] flex items-center justify-between pl-9 pr-9;
 }
 .email-button:hover {
   @apply border-pink-500;
+}
+.arrow {
+  @apply bg-[#fe6c89];
 }
 .below {
   @apply flex gap-12;
